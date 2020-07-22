@@ -1,0 +1,39 @@
+{
+  "python.linting.pylintEnabled": false,
+  
+  /*-------------------- GLOBAL EDITOR CONFIGURATIONS -------------------------*/
+  "editor.minimap.enabled": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  /*----------------------------- C++ STUFF ----------------------------------*/
+  "C_Cpp.autocomplete": "Disabled",
+  "C_Cpp.formatting": "Default",
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp.intelliSenseEngine": "Default",
+  //clangd
+  "clangd.path": "/home/and/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never",
+    "--suggest-missing-includes",
+    "--compile-commands-dir=./build/"
+  ],
+  //cppcheck
+  "c-cpp-flylint.clang.enable": false,
+  "c-cpp-flylint.flexelint.enable": false,
+  "c-cpp-flylint.cppcheck.enable": true,
+  "c-cpp-flylint.cppcheck.inconclusive": true,
+  "c-cpp-flylint.cppcheck.verbose": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "[cpp]": {
+
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  }
+}
